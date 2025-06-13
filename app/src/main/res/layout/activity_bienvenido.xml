@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bienvenidoActivity">
+
+    <ImageButton
+        android:id="@+id/btnUno"
+        android:layout_width="121dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTrabajo"
+        app:srcCompat="@drawable/uno"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btnDos"
+        android:layout_width="119dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="68dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTrabajo"
+        app:srcCompat="@drawable/dos"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btnTres"
+        android:layout_width="121dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUno"
+        app:srcCompat="@drawable/tres"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:background="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btnCuatro"
+        android:layout_width="121dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDos"
+        app:srcCompat="@drawable/cuatro"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:background="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btnCinco"
+        android:layout_width="121dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTres"
+        app:srcCompat="@drawable/cinco"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:background="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btnSeis"
+        android:layout_width="121dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCuatro"
+        app:srcCompat="@drawable/seis"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:background="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btnSiete"
+        android:layout_width="121dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCinco"
+        app:srcCompat="@drawable/siete"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:background="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btnOcho"
+        android:layout_width="121dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeis"
+        app:srcCompat="@drawable/ocho"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:background="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btnNueve"
+        android:layout_width="121dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSiete"
+        app:srcCompat="@drawable/nueve"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:background="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btnDiez"
+        android:layout_width="121dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOcho"
+        app:srcCompat="@drawable/diez"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="¡Bienvenido!"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <TextView
+        android:id="@+id/txtTrabajo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Selecciona un numero y ve la actividad que este realiza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
+        tools:ignore="HardcodedText,SpUsage"
+        android:textSize="16dp"
+        android:gravity="center" />
+</androidx.constraintlayout.widget.ConstraintLayout>
