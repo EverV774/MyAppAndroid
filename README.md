@@ -72,23 +72,23 @@ Este proyecto está pensado como una herramienta para aprender y practicar el en
 
 #### Login 
 
-![Login](images/login.png)
+![Login](images/login.jpg)
 
 #### Credenciales
 
-![Credenciales](images/credenciales.png)
+![Credenciales](images/credenciales.jpg)
 
 #### Menu Principal
 
-![Menu Principal](images/menuPrincipal.png)
+![Menu Principal](images/menuPrincipal.jpg)
 
 #### Ejercicio 1
 
-![Ejercicio1](images/ejercicio1.png)
+![Ejercicio1](images/ejercicio1.jpg)
 
 #### Ejercicio 2
 
-![Ejercicio2](images/ejercicio2.png)
+![Ejercicio2](images/ejercicio2.jpg)
 
 ## Autor
 
