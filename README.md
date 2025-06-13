@@ -70,4 +70,4 @@ Este proyecto está pensado como una herramienta para aprender y practicar el en
 
 ## Autor
 
-[Velasco Velasco Heber] (https://github.com/EverV774
+[Velasco Velasco Heber] (https://github.com/EverV774)
