@@ -88,7 +88,7 @@ Este proyecto está pensado como una herramienta para aprender y practicar el en
 
 #### Ejercicio 2
 
-![Ejercicio2](images/ejercicio2.jpg)
+![Ejercicio2](images/ejercicio8.jpg)
 
 ## Autor
 
