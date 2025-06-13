@@ -39,7 +39,7 @@ Cada uno de los 10 ejercicios demuestra el uso de componentes importantes de la 
 ### 1. Clona o descarga el repositorio
 
     ```bash
-    git clone https://github.com/TU_USUARIO/MyAppAndroid.git
+    git clone https://github.com/EverV774/MyAppAndroid.git
 
 ---
 
