@@ -48,9 +48,9 @@ Cada uno de los 10 ejercicios demuestra el uso de componentes importantes de la 
 
 ### 3. Ejecutar el proyecto  
 Conecta un dispositivo físico o usa un emulador.  
-Haz clic en **Run ▶️** o presiona `Shift + F10`.
+Haz clic en **Run** o presiona `Shift + F10`.
 
-#### ✅ Requisitos:
+#### Requisitos:
 
 Android Studio Giraffe o más reciente
 
